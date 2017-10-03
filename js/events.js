@@ -19,7 +19,8 @@ function submitIt(){
 
 function pressIt(){
   $('input').on('keydown', function(e){
-    console.log(e.which)
+    if (e.which === 71) {
+    alert("G Key!")
   })
 }
 
