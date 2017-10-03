@@ -21,6 +21,7 @@ function pressIt(){
   $('input').on('keydown', function(e){
     if (e.which === 71) {
     alert("G Key!")
+    }
   })
 }
 
