@@ -6,8 +6,8 @@ function getIt(){
 }
 
 function frameIt(){
-  $('.tasty').on('load', function(){
-    add("redframe")//action you want taken
+  $('img').on('load', function(){
+  $('img').addClass('tasty');  //action you want taken
   })
 }
 
