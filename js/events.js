@@ -5,6 +5,12 @@ function getIt(){
   })
 }
 
+function frameIt(){
+  $('.tasty').on('load', function(){
+    add("redframe")//action you want taken
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
