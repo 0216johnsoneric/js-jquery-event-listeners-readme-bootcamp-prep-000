@@ -11,6 +11,14 @@ function frameIt(){
   })
 }
 
+function submitIt(){
+  $('img').on('load', function(){
+      alert("Your form is going to be submitted now.")
+  })
+}
+
+
+
 $(document).ready(function(){
 
 // call functions here
