@@ -17,6 +17,11 @@ function submitIt(){
   })
 }
 
+function pressIt(){
+  $('input').on('keydown', function(e){
+    console.log(e.which)
+  })
+}
 
 
 $(document).ready(function(){
